@@ -46,5 +46,38 @@ def WIN_COMBINATIONS(baord)
   "X won in the bot diagonal"
   end
   
+  # ============================ O wins
+  
+    if board[top_row_win[0]] == "O" && board[top_row_win[1]] == "O" && board[top_row_win[2]] == "O"
+  "O won in the top row"
+  end
+  
+  if board[mid_row_win[0]] == "O" && board[mid_row_win[1]] == "O" && board[mid_row_win[2]] == "O"
+  "O won in the mid row"
+  end
+  
+  if board[bot_row_win[0]] == "O" && board[bot_row_win[1]] == "O" && board[bot_row_win[2]] == "O"
+  "O won in the bot row"
+  end
+  
+  if board[top_col_win[0]] == "O" && board[top_col_win[1]] == "O" && board[top_col_win[2]] == "O"
+  "O won in the first column"
+  end
+  
+  if board[mid_col_win[0]] == "O" && board[mid_col_win[1]] == "O" && board[mid_col_win[2]] == "O"
+  "O won in the second column"
+  end
+  
+  if board[bot_col_win[0]] == "O" && board[bot_col_win[1]] == "O" && board[bot_col_win[2]] == "O"
+  "O won in the third column"
+  end
+  
+  if board[top_ver_win[0]] == "O" && board[top_ver_win[1]] == "O" && board[top_ver_win[2]] == "O"
+  "O won in the top diagonal"
+  end
+  
+  if board[bot_ver_win[0]] == "O" && board[bot_ver_win[1]] == "O" && board[bot_ver_win[2]] == "O"
+  "O won in the bot diagonal"
+  end
   
 end
