@@ -14,5 +14,11 @@ def WIN_COMBINATIONS(baord)
   top_ver_win = [0,4,8]
   bot_ver_win = [6,4,2]
   
+  if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
+  "X won in the top row"
+  end
   
+  if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
+  "X won in the top row"
+end
 end
