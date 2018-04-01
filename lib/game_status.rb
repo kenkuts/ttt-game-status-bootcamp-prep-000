@@ -38,11 +38,13 @@ def WIN_COMBINATIONS(baord)
   "X won in the third column"
   end
   
-  if board[top_vert_win[0]] == "X" && board[top_vert_win[1]] == "X" && board[top_vert_win[2]] == "X"
-  "X won in the top vertical column"
+  if board[top_ver_win[0]] == "X" && board[top_ver_win[1]] == "X" && board[top_ver_win[2]] == "X"
+  "X won in the top diagonal"
   end
   
-  
+  if board[bot_ver_win[0]] == "X" && board[bot_ver_win[1]] == "X" && board[bot_ver_win[2]] == "X"
+  "X won in the bot diagonal"
+  end
   
   
 end
