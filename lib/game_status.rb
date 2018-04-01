@@ -30,11 +30,19 @@ def WIN_COMBINATIONS(baord)
   "X won in the first column"
   end
   
-  if board[mid_col_win[0]] == "X" && board[top_col_win[1]] == "X" && board[top_col_win[2]] == "X"
-  "X won in the first column"
+  if board[mid_col_win[0]] == "X" && board[mid_col_win[1]] == "X" && board[mid_col_win[2]] == "X"
+  "X won in the second column"
+  end
+  
+  if board[bot_col_win[0]] == "X" && board[bot_col_win[1]] == "X" && board[bot_col_win[2]] == "X"
+  "X won in the third column"
   end
   
   if board[top_col_win[0]] == "X" && board[top_col_win[1]] == "X" && board[top_col_win[2]] == "X"
   "X won in the first column"
   end
+  
+  
+  
+  
 end
